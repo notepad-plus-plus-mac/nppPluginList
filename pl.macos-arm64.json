@@ -5,7 +5,7 @@
             "folder-name": "nppURLPlugin",
             "display-name": "URL Encode/Decode Plugin",
             "version": "1.0.0",
-            "id": "0000000000000000000000000000000000000000000000000000000000000000",
+            "id": "9b0cf50c80c5afd2af08584c787ac27e6c2a2f898d68247b7ba2c20ee6da1c2c",
             "repository": "https://github.com/notepad-plus-plus-mac/nppURLPlugin/releases/download/v1.0.0/nppURLPlugin_macOS_arm64.zip",
             "description": "URL Encoder and Decoder plug-in for Notepad++ which helps to encode/decode URLs within Notepad++.\n\nHow it works:\n1. Configure settings from menu (Plugins > URL Plugin > URL Plugin Settings).\n2. Select text/URL which you want to encode/decode.\n3. Perform your task via Plugins > URL Plugin > Encode/Decode URL.",
             "author": "Rajendra Singh",
