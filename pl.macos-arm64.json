@@ -7,11 +7,9 @@
             "version": "1.0.1",
             "id": "cc43c1bfc22ee9811e7de1967b13d4b2341875aa4fbb2d46ee5be8904c4cf8a0",
             "repository": "https://github.com/notepad-plus-plus-mac/nppURLPlugin/releases/download/v1.0.1/nppURLPlugin.zip",
-            "description": "URL Encoder and Decoder plug-in for Notepad++ which helps to encode/decode URLs within Notepad++.\n\nHow it works:\n1. Configure settings from menu (Plugins > URL Plugin > URL Plugin Settings).\n2. Select text/URL which you want to encode/decode.\n3. Perform your task via Plugins > URL Plugin > Encode/Decode URL.",
+            "description": "URL Encoder and Decoder plug-in for Notepad++ which helps to encode/decode URLs within Notepad++.\n\nHow it works:\n1. Configure settings from menu (Plugins > URL Plugin > URL Plugin Settings).\n2. Select text/URL which you want to encode/decode.\n3. Perform your task via Plugins > URL Plugin > Encode/Decode URL.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/nppURLPlugin",
             "author": "Rajendra Singh",
-            "homepage": "https://github.com/SinghRajenM/nppURLPlugin",
-            "mac-author": "Andrey Letov",
-            "mac-homepage": "https://github.com/notepad-plus-plus-mac/nppURLPlugin"
+            "homepage": "https://github.com/SinghRajenM/nppURLPlugin"
         },
         {
             "folder-name": "ComparePlus",
@@ -19,11 +17,9 @@
             "version": "1.0.0",
             "id": "3f0889b747fa828fe77e2f2ed31f1395118085c92854cd057f875ec5aaaa6478",
             "repository": "https://github.com/notepad-plus-plus-mac/ComparePlus/releases/download/v1.0.0/ComparePlus.zip",
-            "description": "Compare two files side by side with full diff highlighting, alignment, and navigation.\n\nFeatures:\n- File and selection comparison with Myers diff algorithm\n- Changed/added/removed/moved line detection with color highlighting\n- Character-level diff highlighting within changed lines\n- Diff block navigation (Next/Previous/First/Last)\n- Vertical scroll synchronization\n- Compare summary statistics",
+            "description": "Compare two files side by side with full diff highlighting, alignment, and navigation.\n\nFeatures:\n- File and selection comparison with Myers diff algorithm\n- Changed/added/removed/moved line detection with color highlighting\n- Character-level diff highlighting within changed lines\n- Diff block navigation (Next/Previous/First/Last)\n- Vertical scroll synchronization\n- Compare summary statistics\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/ComparePlus",
             "author": "Pavel Nedev",
-            "homepage": "https://github.com/pnedev/comparePlus",
-            "mac-author": "Andrey Letov",
-            "mac-homepage": "https://github.com/notepad-plus-plus-mac/ComparePlus"
+            "homepage": "https://github.com/pnedev/comparePlus"
         }
     ]
 }
