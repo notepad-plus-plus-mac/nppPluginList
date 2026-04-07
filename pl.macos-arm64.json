@@ -20,6 +20,16 @@
             "description": "Compare two files side by side with full diff highlighting, alignment, and navigation.\n\nFeatures:\n- File and selection comparison with Myers diff algorithm\n- Changed/added/removed/moved line detection with color highlighting\n- Character-level diff highlighting within changed lines\n- Diff block navigation (Next/Previous/First/Last)\n- Vertical scroll synchronization\n- Compare summary statistics\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/ComparePlus",
             "author": "Pavel Nedev",
             "homepage": "https://github.com/pnedev/comparePlus"
+        },
+        {
+            "folder-name": "qkNppReverseLines",
+            "display-name": "Reverse Lines",
+            "version": "1.0.1",
+            "id": "07e8ceb12a28d76a3d103b0879ef365d86acab97bef9edfe39afe02b2de44fa3",
+            "repository": "https://github.com/notepad-plus-plus-mac/qkNppReverseLines/releases/download/v1.0.1/qkNppReverseLines.zip",
+            "description": "Reverses the order of selected lines or all lines in the document.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/qkNppReverseLines",
+            "author": "Query Kuma",
+            "homepage": "https://github.com/query-kuma/qkNppReverseLines"
         }
     ]
 }
