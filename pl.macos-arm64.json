@@ -27,7 +27,7 @@
             "version": "1.0.0",
             "id": "3f5f5e1c6e9250c84e922e6f36f81e0f010e9bb939164538dcbbfa111b6e5ad4",
             "repository": "https://github.com/notepad-plus-plus-mac/indentbyfold/releases/download/v1.0.0/indentbyfold.zip",
-            "description": "IndentByFold uses Scintilla fold points to indent code. Language-independent — works with any language that has fold points.\n\nFeatures:\n- Reindent File command (entire document)\n- Auto-indent on Enter based on fold levels\n- Auto-dedent on closing constructs (e.g. })\n\nNote: Currently only Reindent File command is functional on macOS. Real-time auto-indent requires host notification forwarding (planned).\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/indentbyfold",
+            "description": "IndentByFold uses Scintilla fold points to indent code. Language-independent — works with any language that has fold points.\n\nFeatures:\n- Reindent File command (entire document)\n- Auto-indent on Enter based on fold levels\n- Auto-dedent on closing constructs (e.g. })\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/indentbyfold",
             "author": "Ben Bluemel, Frank Fesevur",
             "homepage": "https://github.com/ffes/indentbyfold"
         },
