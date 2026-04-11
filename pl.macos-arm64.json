@@ -15,7 +15,7 @@
             "folder-name": "ComparePlus",
             "display-name": "ComparePlus",
             "version": "1.0.0",
-            "id": "3f0889b747fa828fe77e2f2ed31f1395118085c92854cd057f875ec5aaaa6478",
+            "id": "3ecbb72278357b02b6561da66424c1f1bab59c0eaa6a9a2e282f006428c75b70",
             "repository": "https://github.com/notepad-plus-plus-mac/ComparePlus/releases/download/v1.0.0/ComparePlus.zip",
             "description": "Compare two files side by side with full diff highlighting, alignment, and navigation.\n\nFeatures:\n- File and selection comparison with Myers diff algorithm\n- Changed/added/removed/moved line detection with color highlighting\n- Character-level diff highlighting within changed lines\n- Diff block navigation (Next/Previous/First/Last)\n- Vertical scroll synchronization\n- Compare summary statistics\n\nComing soon:\n- Find Unique Lines\n- Diff since last Save\n- Compare file/selection to Clipboard\n- SVN Diff / Git Diff\n- Auto Re-Compare on Change\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/ComparePlus",
             "author": "Pavel Nedev",
