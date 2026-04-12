@@ -50,6 +50,16 @@
             "description": "Toggle visibility of fold underlines (green horizontal lines under collapsed code blocks). Also provides Collapse/Uncollapse current fold level commands.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/FoldingLineHider",
             "author": "Leonard Chai",
             "homepage": "https://github.com/AhDeeAy/FoldingLineHider"
+        },
+        {
+            "folder-name": "pork2sausage",
+            "display-name": "Pork to Sausage",
+            "version": "1.0.0",
+            "id": "1fd58e816eb0751a5b4ef8bd7f1c4464af60fb241cf4ff3c26c056a20a6cf266",
+            "repository": "https://github.com/notepad-plus-plus-mac/pork2sausage/releases/download/v1.0.0/pork2sausage.zip",
+            "description": "Pipe selected text through user-defined external programs. Supports macros, input/output files, async execution. Includes 7 built-in commands (sort, compress, base64) and a Java demo.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/pork2sausage",
+            "author": "Don HO",
+            "homepage": "https://github.com/nicedreams/pork2sausage"
         }
     ]
 }
