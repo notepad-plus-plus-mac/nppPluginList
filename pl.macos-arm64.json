@@ -40,6 +40,16 @@
             "description": "Reverses the order of selected lines or all lines in the document.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/qkNppReverseLines",
             "author": "Query Kuma",
             "homepage": "https://github.com/query-kuma/qkNppReverseLines"
+        },
+        {
+            "folder-name": "FoldingLineHider",
+            "display-name": "Folding Line Hider",
+            "version": "1.0.0",
+            "id": "cf224a78c7037f02b6a8c24cdc2df826ad4fb6c342e77b2622b265533b1da009",
+            "repository": "https://github.com/notepad-plus-plus-mac/FoldingLineHider/releases/download/v1.0.0/FoldingLineHider.zip",
+            "description": "Toggle visibility of fold underlines (green horizontal lines under collapsed code blocks). Also provides Collapse/Uncollapse current fold level commands.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/FoldingLineHider",
+            "author": "Leonard Chai",
+            "homepage": "https://github.com/AhDeeAy/FoldingLineHider"
         }
     ]
 }
