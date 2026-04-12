@@ -55,7 +55,7 @@
             "folder-name": "pork2sausage",
             "display-name": "Pork to Sausage",
             "version": "1.0.0",
-            "id": "1fd58e816eb0751a5b4ef8bd7f1c4464af60fb241cf4ff3c26c056a20a6cf266",
+            "id": "82b98836cd262f32665e07cf4c09ee8e997be4adf6de4993e0baac37451ab3e1",
             "repository": "https://github.com/notepad-plus-plus-mac/pork2sausage/releases/download/v1.0.0/pork2sausage.zip",
             "description": "Pipe selected text through user-defined external programs. Supports macros, input/output files, async execution. Includes 7 built-in commands (sort, compress, base64) and a Java demo.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/pork2sausage",
             "author": "Don HO",
