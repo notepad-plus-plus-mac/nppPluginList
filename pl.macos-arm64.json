@@ -60,6 +60,16 @@
             "description": "Pipe selected text through user-defined external programs. Supports macros, input/output files, async execution. Includes 7 built-in commands (sort, compress, base64) and a Java demo.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/pork2sausage",
             "author": "Don HO",
             "homepage": "https://github.com/nicedreams/pork2sausage"
+        },
+        {
+            "folder-name": "NppPluginOpenHost",
+            "display-name": "Open Host file",
+            "version": "1.0.0",
+            "id": "7f021e0c5d23afd44ed450043e714f0825758d785f69ac71376f68907b468261",
+            "repository": "https://github.com/notepad-plus-plus-mac/NppPluginOpenHost/releases/download/v1.0.0/NppPluginOpenHost.zip",
+            "description": "Opens the system hosts file (/etc/hosts) in a new Notepad++ tab with a single menu click. Adds a \"Plugins > Open Host file > Open\" menu item. Handy for quickly inspecting or editing host overrides.\n\nNote: /etc/hosts is root-owned on macOS, so saving edits requires elevating privileges separately.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/NppPluginOpenHost",
+            "author": "jejemorg",
+            "homepage": "https://github.com/jejemorg/NppPluginOpenHost"
         }
     ]
 }
