@@ -75,7 +75,7 @@
             "folder-name": "NPP_ExportPlugin",
             "display-name": "NppExport",
             "version": "1.0.0",
-            "id": "01a5a324886b7e6b2eab82b98d287a175ba14e92968c0f8a406e0ead5a3aab5d",
+            "id": "2f15837df5e2d72c8d08ab18e59794c73cd689c9f8506b389408c506adf080c6",
             "repository": "https://github.com/notepad-plus-plus-mac/NPP_ExportPlugin/releases/download/v1.0.0/NPP_ExportPlugin.zip",
             "description": "Export the current document (or a selection) to RTF or HTML with full syntax highlighting preserved — fonts, colors, bold/italic/underline per Scintilla style. Five menu items:\n\n- Export to RTF (save to file)\n- Export to HTML (save to file)\n- Copy RTF to clipboard\n- Copy HTML to clipboard\n- Copy all formats to clipboard\n\nClipboard commands put the rich flavor (public.rtf / public.html) for rich paste targets (Mail, Word, TextEdit Rich) and the rendered source markup as the plain-text fallback so pasting into a plain-text target (another Notepad++ tab, Terminal) shows the same bytes the file export would write. \"Copy all\" puts both rich flavors plus a concatenated HTML + RTF + plain text blob.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/NPP_ExportPlugin",
             "author": "Christian Grasser",
