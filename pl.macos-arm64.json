@@ -14,20 +14,30 @@
         {
             "folder-name": "ComparePlus",
             "display-name": "ComparePlus",
-            "version": "1.0.0",
-            "id": "3ecbb72278357b02b6561da66424c1f1bab59c0eaa6a9a2e282f006428c75b70",
-            "repository": "https://github.com/notepad-plus-plus-mac/ComparePlus/releases/download/v1.0.0/ComparePlus.zip",
+            "version": "1.0.1",
+            "id": "c3df93f6777e5d51163ad5b31bd3952fd9ae3c46362d1b786cb3f2cb7995503f",
+            "repository": "https://github.com/notepad-plus-plus-mac/ComparePlus/releases/download/v1.0.1/ComparePlus.zip",
             "description": "Compare two files side by side with full diff highlighting, alignment, and navigation.\n\nFeatures:\n- File and selection comparison with Myers diff algorithm\n- Changed/added/removed/moved line detection with color highlighting\n- Character-level diff highlighting within changed lines\n- Diff block navigation (Next/Previous/First/Last)\n- Vertical scroll synchronization\n- Compare summary statistics\n\nComing soon:\n- Find Unique Lines\n- Diff since last Save\n- Compare file/selection to Clipboard\n- SVN Diff / Git Diff\n- Auto Re-Compare on Change\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/ComparePlus",
             "author": "Pavel Nedev",
             "homepage": "https://github.com/pnedev/comparePlus"
         },
         {
+            "folder-name": "DoxyIt",
+            "display-name": "DoxyIt",
+            "version": "1.0.0",
+            "id": "c529e6672e49959d6f957e1f3bb33f5eaca4f863e2c1f1c7062223ca12ecfa90",
+            "repository": "https://github.com/notepad-plus-plus-mac/DoxyIt/releases/download/v1.0.0/DoxyIt.zip",
+            "description": "Doxygen comment generator for Notepad++. Put your cursor on the blank line above a function, press Ctrl+Alt+Shift+D, and DoxyIt inserts a /** ... */ block with @brief, one @param line per argument, @return, and @details — each pre-filled with $(...) jump markers. Tab cycles through the markers; Escape clears them.\n\nFeatures:\n- Comment Function — parse the function signature below the cursor and generate a fully-populated doc block\n- Comment File — insert a file-header block with @file + @brief\n- Active Commenting — type /** above a function and press Enter, and DoxyIt auto-runs Comment Function\n- Jump locations — Tab through $(placeholder) markers in the generated block; Escape clears them\n- Language-specific doc_start/doc_line/doc_end delimiters\n\nSupported languages: C, C++, Java, Python, PHP, JavaScript, C#.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/DoxyIt",
+            "author": "Justin Dailey",
+            "homepage": "https://github.com/dail8859/DoxyIt"
+        },
+        {
             "folder-name": "indentbyfold",
             "display-name": "Indent By Fold",
-            "version": "1.0.0",
-            "id": "c670a72b779044e4d59a6e897fe227303016f16531addb7f6b3d9a000e3fe045",
-            "repository": "https://github.com/notepad-plus-plus-mac/indentbyfold/releases/download/v1.0.0/indentbyfold.zip",
-            "description": "IndentByFold uses Scintilla fold points to indent code. Language-independent — works with any language that has fold points.\n\nFeatures:\n- Reindent File command (entire document)\n- Auto-indent on Enter based on fold levels\n- Auto-dedent on closing constructs (e.g. })\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/indentbyfold",
+            "version": "1.0.1",
+            "id": "998e11594e4b72b9aefc30eb82132adf19735d28d38061682ec1b675a2147ae2",
+            "repository": "https://github.com/notepad-plus-plus-mac/indentbyfold/releases/download/v1.0.1/indentbyfold.zip",
+            "description": "IndentByFold uses Scintilla fold points to indent code. Language-independent — works with any language that has fold points.\n\nFeatures:\n- Reindent File command (entire document)\n- Auto-indent on Enter based on fold levels\n- Auto-dedent on closing constructs (e.g. })\n- Language-aware fallback paths for Ruby, HTML, Lisp, Lua, Pascal, XML\n- Skips Python reindent (Python uses significant whitespace)\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/indentbyfold",
             "author": "Ben Bluemel, Frank Fesevur",
             "homepage": "https://github.com/ffes/indentbyfold"
         },
@@ -70,6 +80,16 @@
             "description": "Opens the system hosts file (/etc/hosts) in a new Notepad++ tab with a single menu click. Adds a \"Plugins > Open Host file > Open\" menu item. Handy for quickly inspecting or editing host overrides.\n\nNote: /etc/hosts is root-owned on macOS, so saving edits requires elevating privileges separately.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/NppPluginOpenHost",
             "author": "jejemorg",
             "homepage": "https://github.com/jejemorg/NppPluginOpenHost"
+        },
+        {
+            "folder-name": "SelectToClipboard",
+            "display-name": "Selection to Clipboard",
+            "version": "1.1.1",
+            "id": "20ac79042b60dc96312f81c25c316170206d0408da4f2a71a3f5812ff62ffae2",
+            "repository": "https://github.com/notepad-plus-plus-mac/SelectToClipboard/releases/download/v1.1.1/SelectToClipboard.zip",
+            "description": "Auto-copies the current selection to the system clipboard whenever it changes. Enable via Plugins > Selection to Clipboard > Auto copy selection to clipboard.\n\nHeads up: macOS has only one clipboard, so enabling this feature overwrites your Cmd+C clipboard content every time the selection changes. The default is off. Intended for users migrating from PuTTY / xterm workflows who expect drag-select to copy.\n\nFeatures:\n- Automatic copy of stream and rectangular (column) selections\n- Preserves embedded blank lines in the copied block\n- Per-tab selection-change tracking\n- Toggle state persisted across restarts (saved on every toggle, survives force-quit)\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/SelectToClipboard",
+            "author": "Jakub Dvorak",
+            "homepage": "https://github.com/KubaDee/SelectToClipboard"
         },
         {
             "folder-name": "NPP_ExportPlugin",
