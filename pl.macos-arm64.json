@@ -110,6 +110,16 @@
             "description": "Six favorite-file slots with keyboard shortcuts. Store up to six frequently-opened files and jump to any of them with Ctrl+Opt+1..6. Ctrl+Opt+B opens the JSON config file for editing, and the config is reloaded on every open so edits take effect immediately.\n\nConfig is stored at ~/.notepad++/plugins/Config/NppFavorites.json. First run seeds /etc/hosts and /etc/shells as sample favorites — edit the JSON to point at whatever files you want.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/nppfavorites",
             "author": "Helder Sepulveda",
             "homepage": "https://github.com/heldersepu/nppfavorites"
+        },
+        {
+            "folder-name": "nppAutoDetectIndent",
+            "display-name": "Auto Detect Indention",
+            "version": "1.0.0",
+            "id": "3abd1a98fe4e6a74d24b7825c58e6d8f856488ff33ccf30647f07e02fb0905b9",
+            "repository": "https://github.com/notepad-plus-plus-mac/nppAutoDetectIndent/releases/download/v1.0.0/nppAutoDetectIndent.zip",
+            "description": "Auto-detects whether the current buffer uses tabs or N-space indentation and configures Scintilla so the Tab key inserts the file's actual indent style. No configuration needed — just install, open files, and Tab always does the right thing.\n\nScans up to 5,000 lines per buffer on tab activation, skips ' * ' continuation lines inside /** */ doc blocks (C/C++/C#/Obj-C/Java/PHP/JavaScript), and picks the dominant style by 4:1 majority. Results are cached per file path so switching tabs is instant.\n\nMenu under Plugins → Auto Detect Indention: Disable plugin (toggle, persisted across restarts), Version, Goto website. Disabled-state restores whatever indent settings the host had when Notepad++ launched.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/nppAutoDetectIndent",
+            "author": "Mike Tzou (Chocobo1)",
+            "homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
         }
     ]
 }
