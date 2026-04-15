@@ -100,6 +100,16 @@
             "description": "Export the current document (or a selection) to RTF or HTML with full syntax highlighting preserved — fonts, colors, bold/italic/underline per Scintilla style. Five menu items:\n\n- Export to RTF (save to file)\n- Export to HTML (save to file)\n- Copy RTF to clipboard\n- Copy HTML to clipboard\n- Copy all formats to clipboard\n\nClipboard commands put the rich flavor (public.rtf / public.html) for rich paste targets (Mail, Word, TextEdit Rich) and the rendered source markup as the plain-text fallback so pasting into a plain-text target (another Notepad++ tab, Terminal) shows the same bytes the file export would write. \"Copy all\" puts both rich flavors plus a concatenated HTML + RTF + plain text blob.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/NPP_ExportPlugin",
             "author": "Christian Grasser",
             "homepage": "https://github.com/chcg/NPP_ExportPlugin"
+        },
+        {
+            "folder-name": "nppfavorites",
+            "display-name": "NppFavorites",
+            "version": "1.0.0",
+            "id": "c809761aa2fabe462957ce35a7f20bc3435a91ffc9910a67442785ab23e5b1f8",
+            "repository": "https://github.com/notepad-plus-plus-mac/nppfavorites/releases/download/v1.0.0/nppfavorites.zip",
+            "description": "Six favorite-file slots with keyboard shortcuts. Store up to six frequently-opened files and jump to any of them with Ctrl+Opt+1..6. Ctrl+Opt+B opens the JSON config file for editing, and the config is reloaded on every open so edits take effect immediately.\n\nConfig is stored at ~/.notepad++/plugins/Config/NppFavorites.json. First run seeds /etc/hosts and /etc/shells as sample favorites — edit the JSON to point at whatever files you want.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/nppfavorites",
+            "author": "Helder Sepulveda",
+            "homepage": "https://github.com/heldersepu/nppfavorites"
         }
     ]
 }
