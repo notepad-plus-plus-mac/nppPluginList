@@ -120,6 +120,16 @@
             "description": "Auto-detects whether the current buffer uses tabs or N-space indentation and configures Scintilla so the Tab key inserts the file's actual indent style. No configuration needed — just install, open files, and Tab always does the right thing.\n\nScans up to 5,000 lines per buffer on tab activation, skips ' * ' continuation lines inside /** */ doc blocks (C/C++/C#/Obj-C/Java/PHP/JavaScript), and picks the dominant style by 4:1 majority. Results are cached per file path so switching tabs is instant.\n\nMenu under Plugins → Auto Detect Indention: Disable plugin (toggle, persisted across restarts), Version, Goto website. Disabled-state restores whatever indent settings the host had when Notepad++ launched.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/nppAutoDetectIndent",
             "author": "Mike Tzou (Chocobo1)",
             "homepage": "https://github.com/Chocobo1/nppAutoDetectIndent"
+        },
+        {
+            "folder-name": "selectquotedtext",
+            "display-name": "SelectQuotedText",
+            "version": "1.0.0",
+            "id": "be1ffc133bee9653001d9e7676ae89ca5363026c39e1a00a898a78e868be57d0",
+            "repository": "https://github.com/notepad-plus-plus-mac/selectquotedtext/releases/download/v1.0.0/selectquotedtext.zip",
+            "description": "Select the text inside quotes with a single keystroke (Option+'). Uses Scintilla lexer styles to detect string boundaries in 35+ languages — correctly handles escaped quotes, raw strings, heredocs, and other language-specific string forms. For plain text and unmapped languages, a character-level quote-pair fallback scans the current line for matched quotes containing the cursor. Falls back to selecting the current word when not inside any quotes.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/selectquotedtext",
+            "author": "Frank Fesevur",
+            "homepage": "https://github.com/ffes/selectquotedtext"
         }
     ]
 }
