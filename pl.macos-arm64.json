@@ -55,7 +55,7 @@
             "folder-name": "FoldingLineHider",
             "display-name": "Folding Line Hider",
             "version": "1.0.0",
-            "id": "cf224a78c7037f02b6a8c24cdc2df826ad4fb6c342e77b2622b265533b1da009",
+            "id": "9d2fdc481d7cab847e1792d9d9776eefbb87f946bfd61b9a9d6871ab563dd49d",
             "repository": "https://github.com/notepad-plus-plus-mac/FoldingLineHider/releases/download/v1.0.0/FoldingLineHider.zip",
             "description": "Toggle visibility of fold underlines (green horizontal lines under collapsed code blocks). Also provides Collapse/Uncollapse current fold level commands.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/FoldingLineHider",
             "author": "Leonard Chai",
