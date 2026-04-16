@@ -130,6 +130,16 @@
             "description": "Select the text inside quotes with a single keystroke (Option+'). Uses Scintilla lexer styles to detect string boundaries in 35+ languages — correctly handles escaped quotes, raw strings, heredocs, and other language-specific string forms. For plain text and unmapped languages, a character-level quote-pair fallback scans the current line for matched quotes containing the cursor. Falls back to selecting the current word when not inside any quotes.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/selectquotedtext",
             "author": "Frank Fesevur",
             "homepage": "https://github.com/ffes/selectquotedtext"
+        },
+        {
+            "folder-name": "notepadpp_rpc",
+            "display-name": "Discord Rich Presence",
+            "version": "1.0.0",
+            "id": "56f065874c57243666849dfbd225b165b6912a13e1514d08267a7a345a13ebd4",
+            "repository": "https://github.com/notepad-plus-plus-mac/notepadpp_rpc/releases/download/v1.0.0/notepadpp_rpc.zip",
+            "description": "Shows the file you're editing in your Discord profile status — file name, language with icon, file size, line/column, and elapsed time. Supports 30+ language-specific icons, customizable format strings with template variables, idle detection with configurable timeout, and an in-app Options dialog. Requires the Discord desktop app to be running.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/notepadpp_rpc",
+            "author": "Zukaritasu",
+            "homepage": "https://github.com/Zukaritasu/notepadpp_rpc"
         }
     ]
 }
