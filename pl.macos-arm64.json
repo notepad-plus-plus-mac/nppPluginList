@@ -150,6 +150,16 @@
             "description": "Code snippet expansion engine. Type a trigger word, invoke Replace Snip, and the word expands to a full template with hotspot navigation. Snippets are stored per-language in QuickText.ini keyed by LangType number (3=C++, 22=Python, 58=JavaScript, 255=GLOBAL). Supports Scintilla autocomplete integration, tab-to-spaces conversion, and EOL-aware line breaks.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/nppQuickText",
             "author": "Joao Moreno, TonyM, MVincent",
             "homepage": "https://sourceforge.net/projects/quicktext/"
+        },
+        {
+            "folder-name": "NppMarkdownPanel",
+            "display-name": "Markdown Panel",
+            "version": "1.0.0",
+            "id": "8a5d5b911fab0d748d34400715342c7c7fd1daa420de965f266f3ac0fa732a72",
+            "repository": "https://github.com/notepad-plus-plus-mac/NppMarkdownPanel/releases/download/v1.0.0/NppMarkdownPanel.zip",
+            "description": "Real-time Markdown preview panel. Open a .md file and toggle the panel to see a live-rendered preview alongside the editor. Supports GitHub-flavored Markdown, syntax-highlighted code blocks, relative images, dark mode, scroll synchronization, YAML frontmatter, Mermaid diagrams, and export to HTML. Rendering powered by WKWebView with marked.js + highlight.js.\n\nmacOS Port Author: Andrey Letov\nmacOS Homepage: https://github.com/notepad-plus-plus-mac/NppMarkdownPanel",
+            "author": "Jens Wollgarten",
+            "homepage": "https://github.com/nea/NppMarkdownPanel"
         }
     ]
 }
